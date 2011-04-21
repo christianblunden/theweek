@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<!-- Change this if you want to allow scaling -->
+    <!--<meta name="viewport" content="width=default-width; user-scalable=no" />-->
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>The Week 9 April 2011</title>
+	
+	<!-- iPad/iPhone specific css below, add after your main css -->
+	<!--<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />-->	
+	<!--<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />-->		
+	
+	<!-- If you application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
+	<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+
+	// If you want to prevent dragging, uncomment this section
+	/*
+	function preventBehavior(e) 
+	{ 
+      e.preventDefault(); 
+    };
+	document.addEventListener("touchmove", preventBehavior, false);
+	*/
+	
+	function onBodyLoad()
+	{
+		document.addEventListener("deviceready",onDeviceReady,false);
+	}
+	
+	/* When this function is called, PhoneGap has been initialized and is ready to roll */
+	function onDeviceReady()
+	{
+		// do your thing!
+	}
+    
+    </script>
+<link rel="stylesheet" href="ipad.css" type="text/css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+  </head>
+  <body onload="onBodyLoad()">
+<!-- Start of first page -->
+<div data-role="page" id="contents">
+
+	<div data-role="header">
+		<h1>The Week</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+          <div class="ui-grid-a">
+	<div class="ui-block-a">
+          <img width="400px"
+          src="http://thefinanser.co.uk/.a/6a01053620481c970b01127939f44128a4-800wi"/>
+        </div>
+        
+	<div class="ui-block-b">
+<h2>News</h2>
+<div data-role="controlgroup">
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">The main stories</a>
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">Politics</a>
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">Europe at a glance</a>
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">The World at a glance</a>
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">People</a>
+</div>
+
+<h2>Arts</h2>
+<div data-role="controlgroup">
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">Books</a>
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">Drama</a>
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">Film</a>
+<a href="#article" data-role="button" data-icon="arrow-r" data-iconpos="right">Art</a>
+</div> <!-- controlgroup -->
+        </div> <!-- block-b -->
+</div><!-- /grid-a -->
+			
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>All you need to know about everything that matters</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+
+<!-- Start of second page -->
+<div data-role="page" id="article" class="article">
+
+	<div data-role="header">
+		<h1>Some Article</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+<div class="multicolumn4">
+  <h2>What happened</h2>
+  <h1>Stalemate in Libya</h1>
+<p>
+  <img
+  src="http://4.images.theweek.com/img/dir_0059/29964_article_main.jpg?40"
+  class="alignLeft"/>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin, augue ut bibendum gravida, justo dolor porttitor tellus, at hendrerit elit ante vel purus. Ut tempus, mauris semper bibendum congue, nulla lacus euismod nibh, a mattis sem lorem lacinia leo. Proin dapibus dolor nec nisi adipiscing eget tempor eros placerat. Praesent tincidunt posuere ultricies. Aenean convallis molestie aliquam. Mauris ac nibh eget arcu dictum pharetra vel quis velit. Etiam sed eleifend turpis. Etiam ac ante bibendum felis mattis convallis in non ipsum. Etiam tempus dictum turpis id fringilla. Fusce luctus est eget tellus posuere condimentum lacinia ante dapibus. Maecenas enim tellus, egestas at egestas quis, accumsan vitae leo. Donec ante tortor, posuere eget condimentum vitae, iaculis id nulla. Pellentesque erat lorem, tristique cursus lobortis eu, commodo vel tellus. Vivamus pellentesque dui suscipit risus molestie venenatis. Aenean cursus varius mi quis aliquet. Proin lectus ipsum, facilisis sed tristique id, vehicula id turpis. Curabitur id ligula leo, ac ultricies libero. Fusce in sapien a massa adipiscing fermentum. Quisque turpis sem, vehicula tincidunt pulvinar ac, malesuada accumsan lorem. Aenean felis turpis, convallis tempus bibendum vel, placerat et neque.
+</p>
+<p>
+Donec ultricies tincidunt orci quis adipiscing. Praesent consectetur consectetur dolor quis blandit. Maecenas elit augue, ultrices ut tristique in, sagittis sit amet lectus. Mauris pretium vehicula tellus in viverra. Aenean lobortis, sapien id fringilla porttitor, diam risus volutpat ligula, ac tempor lacus lectus eget velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut et dolor enim. Donec diam magna, mollis dictum iaculis a, scelerisque sed eros. Curabitur eu nisl ante. Ut sed mi auctor sapien consectetur vestibulum. Etiam vulputate velit ultricies quam vestibulum sed pellentesque felis luctus. Integer ligula eros, congue nec imperdiet nec, volutpat eu mauris. Maecenas nunc felis, ornare non accumsan vel, mattis id purus. Vivamus non augue nunc. Pellentesque iaculis dictum nunc eu bibendum. Suspendisse varius mauris quis elit tincidunt vel rutrum justo pellentesque. Fusce nec erat ut leo bibendum aliquet.
+</p>
+<p>
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam lorem dolor, consequat in mattis ac, laoreet sed est. Fusce pellentesque risus ut quam feugiat vulputate. Vestibulum congue tempor dui, sit amet ultricies eros vulputate eget. Proin blandit nisl non metus egestas at bibendum ante posuere. Nullam at magna nisl. Sed malesuada fringilla nisl nec elementum. In dapibus turpis in massa mollis sit amet dictum orci viverra. Aliquam sapien turpis, vulputate aliquet pellentesque in, sollicitudin eu velit. Mauris sit amet mollis nibh. Ut commodo laoreet lacus, ut vulputate tortor laoreet non. Aliquam neque nisi, cursus faucibus mattis nec, malesuada sed libero. Aliquam libero risus, pellentesque bibendum elementum posuere, vulputate nec erat. Maecenas sodales semper aliquet. Maecenas purus magna, rhoncus quis rutrum eu, semper et nibh.
+</p>
+<h2>What the editorials said</h2>
+<p>
+Vestibulum varius condimentum nisi at malesuada. Maecenas malesuada vehicula enim non molestie. Nullam ultrices feugiat ipsum congue imperdiet. Etiam vitae massa vitae velit tempus ultricies ac eget velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras pulvinar ante a elit gravida eu auctor ligula vestibulum. Duis id nibh enim, vitae luctus tellus. Phasellus sodales euismod nibh, non tempus dui condimentum at. Pellentesque nec eros sem. Pellentesque sit amet nisl nunc. Nam nisi tortor, tincidunt eget ultricies nec, porta eget sapien.
+</p>
+<p>
+Mauris condimentum vestibulum urna, eu placerat massa pulvinar at. Fusce arcu dolor, euismod at molestie in, luctus id sem. Ut at ligula auctor libero facilisis pharetra. Vestibulum faucibus, nulla vitae sollicitudin imperdiet, libero elit ultrices purus, gravida molestie sapien massa vitae eros. Fusce bibendum pharetra lectus vel facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut a vestibulum ligula. Duis tincidunt consequat posuere. Mauris tempus adipiscing dolor id viverra. Donec bibendum risus a odio posuere vel dictum dolor porta. Cras fringilla ipsum at odio aliquam ultrices tempus dolor ornare. Quisque vel sodales nulla.
+</p>
+<h2>What the commentators said</h2>
+<p>
+Praesent volutpat tincidunt elementum. Sed lectus nibh, ornare non suscipit non, suscipit quis nibh. Duis sodales dui id dui suscipit ac fermentum ligula sagittis. Morbi elit urna, aliquam sed semper at, blandit non quam. Phasellus accumsan elit eu est convallis feugiat. In libero enim, aliquam quis facilisis vitae, eleifend eu sapien. Donec congue massa at turpis eleifend pellentesque. Donec aliquet suscipit augue, consequat ullamcorper leo mollis quis. Vivamus dui enim, dignissim eu suscipit cursus, pulvinar sit amet enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+</p>
+<p>
+Praesent volutpat tincidunt elementum. Sed lectus nibh, ornare non suscipit non, suscipit quis nibh. Duis sodales dui id dui suscipit ac fermentum ligula sagittis. Morbi elit urna, aliquam sed semper at, blandit non quam. Phasellus accumsan elit eu est convallis feugiat. In libero enim, aliquam quis facilisis vitae, eleifend eu sapien. Donec congue massa at turpis eleifend pellentesque. Donec aliquet suscipit augue, consequat ullamcorper leo mollis quis. Vivamus dui enim, dignissim eu suscipit cursus, pulvinar sit amet enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+</p>
+<h2>What next?</h2>
+<p>
+Praesent volutpat tincidunt elementum. Sed lectus nibh, ornare non suscipit non, suscipit quis nibh. Duis sodales dui id dui suscipit ac fermentum ligula sagittis. Morbi elit urna, aliquam sed semper at, blandit non quam. Phasellus accumsan elit eu est convallis feugiat. In libero enim, aliquam quis facilisis vitae, eleifend eu sapien. Donec congue massa at turpis eleifend pellentesque. Donec aliquet suscipit augue, consequat ullamcorper leo mollis quis. Vivamus dui enim, dignissim eu suscipit cursus, pulvinar sit amet enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+</p>
+
+</div>		
+          <p><a href="#contents" data-direction="reverse">Back to menu</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+  </body>
+</html>

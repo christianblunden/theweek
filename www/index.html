@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<!-- Change this if you want to allow scaling -->
+    <!--<meta name="viewport" content="width=default-width; user-scalable=no" />-->
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>TheWeek</title>
+	
+	<!-- iPad/iPhone specific css below, add after your main css -->
+	<!--<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />-->	
+	<!--<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />-->		
+	
+	<!-- If you application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
+	<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+
+	// If you want to prevent dragging, uncomment this section
+	/*
+	function preventBehavior(e) 
+	{ 
+      e.preventDefault(); 
+    };
+	document.addEventListener("touchmove", preventBehavior, false);
+	*/
+	
+	function onBodyLoad()
+	{
+		document.addEventListener("deviceready",onDeviceReady,false);
+	}
+	
+	/* When this function is called, PhoneGap has been initialized and is ready to roll */
+	function onDeviceReady()
+	{
+		// do your thing!
+	}
+    
+    </script>
+<link rel="stylesheet" href="ipad.css" type="text/css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+  </head>
+  <body onload="onBodyLoad()">
+<!-- Start of first page -->
+<div data-role="page" id="contents">
+
+	<div data-role="header" data-position="fixed">
+		<h1>The Week</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+          <div class="ui-grid-a">
+	<div class="ui-block-a">
+          <a href="20110409issue.html" data-transition="pop">
+          <img height="200px"
+          src="http://thefinanser.co.uk/.a/6a01053620481c970b01127939f44128a4-800wi"/>
+          </a>
+          <a href="20110409issue.html" data-transition="pop">
+          <img height="200px"
+          src="http://www.africas-eden.com/MediaFiles/Image/Homepage/Images%20for%20Press%20Corner/Press%20Cover%20page%202006/The%20Week%20Magazine%20Feb.%2006.jpg"/>
+          </a>
+          <a href="20110409issue.html" data-transition="pop">
+          <img height="200px"
+          src="http://www.foodmuseum.com/images/avianthisweekcover300.jpg"/>
+          </a>
+          
+        </div>
+        
+	<div class="ui-block-b">
+
+<div data-inline="true">
+	<a href="20110409issue.html" data-role="button">View</a>
+  <a href="index.html" data-role="button">Download</a>
+	<a href="index.html" data-role="button" data-theme="b">Subscribe</a>
+</div>
+
+        </div> <!-- block-b -->
+</div><!-- /grid-a -->
+			
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>All you need to know about everything that matters</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+  </body>
+</html>
